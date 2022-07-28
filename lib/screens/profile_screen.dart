@@ -15,9 +15,9 @@ class ProfileScreen extends StatelessWidget {
           color: Colors.white,
         ),
         actions: const [Icon(Icons.settings)],
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.grey[900],
       ),
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.grey[900],
       body: Column(
         children: [
           Padding(
@@ -31,7 +31,7 @@ class ProfileScreen extends StatelessWidget {
               child: Container(
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
-                      color: Colors.black),
+                      color: Colors.grey[900]),
                   alignment: Alignment.center,
                   child: Column(
                     children: Settingslayout.map(

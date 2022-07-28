@@ -19,24 +19,27 @@ class PrayerCard extends StatelessWidget {
               borderRadius: BorderRadius.circular(30), color: Colors.grey[850]),
           child:
               Row(
-                //crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
+
                  children: [
+                  const SizedBox(width:10),
             Icon(
               icon,
               size: 20,
               color: Colors.white,
             ),
+            SizedBox(width: 10),
             Text(
               name, 
-              textAlign: TextAlign.right,
               style: const TextStyle(fontSize: 20, color: Colors.white),
             ),
+            Spacer(),
             const Icon(
               Icons.arrow_forward_ios_sharp,
               size: 20,
               color: Colors.white,
-            )
+            ),
+            const SizedBox(width:8)
+
           ]),
         ));
   }

@@ -10,7 +10,7 @@ class UserDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         // ignore: prefer_const_constructors
-        decoration: BoxDecoration(color: Colors.black),
+        decoration: BoxDecoration(color: Colors.grey[900]),
         child: Column(
         
             // ignore: prefer_const_literals_to_create_immutables
